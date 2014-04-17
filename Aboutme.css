@@ -1,0 +1,25 @@
+body {
+	background-color:darkred;
+	background-image: url(http://img4.wikia.nocookie.net/__cb20100420002539/megaman/images/a/aa/Normal_mmx5promo.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#mattrex{
+	font-family:edwardian script itc
+	;text-align:center;
+	color:cyan;
+	font-size:430%;
+}
+#yay{
+	color:navy;
+	font-size:140%;
+}
+#one{
+	color:green;
+background-color:green;
+height: 5px;
+}
+#photo1{display: block;
+    margin-left: auto;
+  margin-right: auto;
+}
