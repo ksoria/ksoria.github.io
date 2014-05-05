@@ -9,10 +9,10 @@
     src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   </head>
   <body onLoad="time()">
-    <h1><center> Welcome to Kevin Soria's Website </h1>
+    <h1 tag="mattrex"> Welcome to Kevin Soria's Website </h1>
     <hr>
     <i><marquee> Welcome! </marquee></i>
-    <img src="Img.jpg" />
+    <img src="Img.jpg" tag="photo1" />
     <h6> By: Kevin Soria </h6>
     <span id="date"></span>
     <hr>
@@ -74,13 +74,25 @@
       <p><b><i> Well, Thanks for reading!! </i></b></p>
       <i><marquee><p style="font-size: 150%;"><center> So long! </center></p></marquee></i>
       <h6><center> &#169; 2014 Kevin Soria. All Rights Reserves. Kevin, Kevin Soria, and all photos of Kevin Soria are trademarks of the K-Industires group of companies. This product is for Kevin only.</center></h6>
-  
+    <INPUT type="image" onclick="Textchange(http://24.media.tumblr.com/07e4418d9e8f6a1e73d068cb87d3c07c/tumblr_mevmbpue861qcc17ao1_500.jpg)" src="http://www.truthcontrol.com/files/truthcontrol/images/710.png" width = "100px" height = "100px"> <br>
+    <button onclick="defaultStyle(Img.jpg);"> Reset </button>
+
 
 <script type="text/javascript">
-  function time() {
+  function time()
+{
   var months = ['Janurary','February','March','April','May','June','July','August','September','October','November','December'];
   var tomorrow = new Date();
   tomorrow.setTime(tomorrow.getTime() + (1000*3600*24));
   document.getElementById("date").innerHTML = months[tomorrow.getMonth()] + " " + tomorrow.getDate()+ ", " + tomorrow.getFullYear();
-  }
+}
+  function Textchange(a)
+{
+document.getElementById("mattrex").innerHTML = "Illuminate"
+document.getElementById("img").src=a;
+}
+function defaultStyle(a) {  
+  document.getElementById("mattrex").innerHTML = "Welcome to Kevin Soria's Website"
+  
+}  
 </script>
