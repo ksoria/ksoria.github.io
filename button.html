@@ -3,9 +3,23 @@
 <html lang="en">
    <head>
       <meta charset="utf-8" />
-      <title>Untitled</title>
+      <title>Button</title>
+      <script
+         src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
    </head>
    <body>
-      <p>Hello World</p>
+      <p id="foo">One more line</p>
+      <input type="button" onclick="changeText()" value="click me" />
+
+      <script type="text/javascript">
+         function changeText() {
+            // alert("Hi");            
+            $("#foo").html("Kevin was here at one point.");
+            $("#foo").fadeOut();
+            $("#foo").delay(1000).fadeIn(1500);
+            // $("#foo").delay(1000).html("One more line");
+         }
+      
+      </script>
    </body>
 </html>
