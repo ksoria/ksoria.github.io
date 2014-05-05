@@ -1,13 +1,13 @@
 body {
-	background-color:darkred;
-	background-image: url(http://img4.wikia.nocookie.net/__cb20100420002539/megaman/images/a/aa/Normal_mmx5promo.jpg);
+	background-color: #282828;
+	background-image: url(http://www.space.com/images/i/000/000/481/i02/blue-moon-101119-02.jpg?1291043297);
 	background-position: center;
 	background-repeat: no-repeat;
 }
 #mattrex{
-	font-family:edwardian script itc
-	;text-align:center;
-	color:cyan;
+	font-family:edwardian script itc;
+	text-align:center;
+	color: #000000;
 	font-size:430%;
 }
 #yay{
@@ -19,7 +19,13 @@ body {
 background-color:green;
 height: 5px;
 }
-#photo1{display: block;
+#photo1{
+	display: block;
     margin-left: auto;
   margin-right: auto;
+}
+marquee {
+	color: #eee;
+	background-color: #eee;
+	border: 1px solid;
 }
