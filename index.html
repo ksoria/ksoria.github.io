@@ -111,12 +111,12 @@ t=setTimeout("timedCount()",1000);
 function handleClick() {
   if (timer_is_on) {
     timer_is_on = false;
-    Textchange()
+    defaultStyle();
     clearTimeout(t);
   }
   else {
     timer_is_on = true;
-    defaultStyle();
+    Textchange();
     timedCount();
   }
 }
