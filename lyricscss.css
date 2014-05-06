@@ -1,9 +1,13 @@
+@import url(http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Herr+Von+Muellerhoff);
+
 body {
 	color: #FFFFFF;
 	/*background-color: #282828;
 	background-image: url(http://www.space.com/images/i/000/000/481/i02/blue-moon-101119-02.jpg?1291043297);*/
 	background-position: center;
 	background-repeat: no-repeat;
+        font-family: Lora;
 }
 
 hr {
@@ -24,7 +28,7 @@ html {
   background-size: cover;
 }
 #mattrex{
-	font-family:edwardian script itc;
+	font-family:Herr Von Muellerhoff;
 	text-align:center;
 	color: #FFFFFF;
 	font-size:430%;
@@ -86,4 +90,8 @@ h1
  border-color: #500000;
  margin: 1px 50px;
  } 
-Status API Training Shop Blog About © 2014 GitHub, Inc. Terms Privacy Security Contact
+
+button {
+width: 200;
+height: 40;
+}
