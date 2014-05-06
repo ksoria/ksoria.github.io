@@ -13,7 +13,7 @@
       <button onClick="window.location='http://ksoria.github.io'"> Home </button>
       <hr>
       <h1 id="mattrex"> San Francisco </h1>
-<marquee direction"down"><p>If you're going to San Francisco</p>
+<marquee direction="down"><p>If you're going to San Francisco</p>
 <p>Be sure to wear some flowers in your hair</p>
 <p>If you're going to San Francisco</p>
 <p>You're gonna meet some gentle people there</p>
