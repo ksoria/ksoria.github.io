@@ -87,4 +87,6 @@ p {
  position:fixed;
  bottom:10px;
  background-color: #303030;
+ border-style: ridge;
+ margin: 1px 50px;
  } 
