@@ -98,7 +98,7 @@ function time()
   var months = ['Janurary','February','March','April','May','June','July','August','September','October','November','December'];
   var tomorrow = new Date();
   tomorrow.setTime(tomorrow.getTime() + (1000*3600*24));
-  document.getElementById("date").innerHTML = "Today is " months[tomorrow.getMonth()] + " " + tomorrow.getDate()+ ", " + tomorrow.getFullYear();
+  document.getElementById("date").innerHTML = months[tomorrow.getMonth()] + " " + tomorrow.getDate()+ ", " + tomorrow.getFullYear();
 }
 
 function Textchange()
