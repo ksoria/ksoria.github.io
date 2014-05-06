@@ -7,7 +7,7 @@ body {
 	background-image: url(http://www.space.com/images/i/000/000/481/i02/blue-moon-101119-02.jpg?1291043297);*/
 	background-position: center;
 	background-repeat: no-repeat;
-        font-family: Lora;
+        font-family: 'Lora', serif;
 }
 
 hr {
@@ -28,7 +28,6 @@ html {
   background-size: cover;
 }
 #mattrex{
-	font-family:Herr Von Muellerhoff;
 	text-align:center;
 	color: #FFFFFF;
 	font-size:430%;
