@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Herr+Von+Muellerhoff&subset=latin,latin-ext);
 body {
 	color: #FFFFFF;
 	/*background-color: #282828;
@@ -18,7 +19,7 @@ html {
   background-size: cover;
 }
 #mattrex{
-	font-family:edwardian script itc;
+	font-family:Herr+Von+Muellerhoff;
 	text-align:center;
 	color: #FFFFFF;
 	font-size:430%;
