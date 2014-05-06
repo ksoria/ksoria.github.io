@@ -83,11 +83,11 @@ h1
  {
  color: #E8E8E8;
  position:fixed;
- bottom:10px;
+ right:10px;
  background-color: #303030;
  border-style: ridge;
  border-color: #500000;
- margin: 1px 50px;
+ margin: 1px 10px;
  } 
 
 button {
