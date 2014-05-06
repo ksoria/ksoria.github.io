@@ -50,7 +50,15 @@ marquee {
 p {
 	color: #FFFFFF;
 }
-.strokeme
+p
+{
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+h1
 {
     text-shadow:
     -1px -1px 0 #000,
