@@ -1,13 +1,13 @@
-* {
+/** {
 margin: 0;
-}
+}*/
 body {
 	color: #FFFFFF;
 	/*background-color: #282828;
 	background-image: url(http://www.space.com/images/i/000/000/481/i02/blue-moon-101119-02.jpg?1291043297);*/
 	background-position: center;
 	background-repeat: no-repeat;
-	height: 100%;
+	/*height: 100%;*/
 }
 html { 
   background: url(http://www.space.com/images/i/000/000/481/i02/blue-moon-101119-02.jpg?1291043297) no-repeat center center fixed; 
@@ -15,7 +15,7 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 100%;
+  /*height: 100%;*/
 }
 #mattrex{
 	font-family:edwardian script itc;
@@ -57,12 +57,16 @@ p {
 #winners{
 	font-size: 24pt;
 }
-.wrapper {
+/*.wrapper {
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
-	margin: 0 auto -155px; /* the bottom margin is the negative value of the footer's height */
+	margin: 0 auto -155px; the bottom margin is the negative value of the footer's height
 }
 .footer, .push {
-	height: 155px; /* .push must be the same height as .footer */
+	height: 155px; /* .push must be the same height as .footer
+}*/
+
+#buttonhid { 
+	text-align: center;
 }
