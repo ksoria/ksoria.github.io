@@ -70,3 +70,9 @@ p {
 #buttonhid { 
 	text-align: center;
 }
+
+#load
+ {
+ position:absolute;
+ bottom:5px;
+ } 
