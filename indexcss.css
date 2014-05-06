@@ -90,3 +90,8 @@ font-family: 'Rokkitt', serif;
 .high {
 	color: 33CCFF;
 }
+
+button {
+        width: 200px
+        height: 50px
+}
