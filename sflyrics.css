@@ -6,12 +6,18 @@ body {
 	background-repeat: no-repeat;
 }
 
+hr {
+color: #FFF;
+background-color: #000;
+height: 5px;
+}
+
 div {
 	display:inline;
 }
 
 html { 
-  background: url(http://www.space.com/images/i/000/000/481/i02/blue-moon-101119-02.jpg?1291043297) no-repeat center center fixed; 
+  background: url(http://mcmanuslab.ucsf.edu/sites/mcmanuslab.ucsf.edu/files/imagepicker/m/mmcmanus/san-francisco.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -50,7 +56,15 @@ marquee {
 p {
 	color: #FFFFFF;
 }
-.strokeme
+p
+{
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+h1
 {
     text-shadow:
     -1px -1px 0 #000,
