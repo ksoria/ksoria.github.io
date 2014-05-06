@@ -23,9 +23,15 @@ html {
 	color: #FFFFFF;
 	font-size:430%;
 }
-#yay{
-	color:navy;
-	font-size:140%;
+#boxred{
+	color:#FFFFFF;
+	font-size:16pt;
+	border-style:dotted;
+	border-color:Red;
+	border-width:1px;
+	margin:15px;
+	width:150px;
+	padding:5px;}
 }
 #one{
 	color:green;
