@@ -54,15 +54,15 @@ marquee {
 	border: 1px solid;
 }
 p {
-	color: #000000;
+	color: #FFFFFF;
 }
 p
 {
     text-shadow:
-    -1px -1px 0 #FFF,
-    1px -1px 0 #FFF,
-    -1px 1px 0 #FFF,
-    1px 1px 0 #FFF;
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 h1
 {
