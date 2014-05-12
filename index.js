@@ -39,7 +39,7 @@ function handleClick() {
     timer_is_on = true;
     Textchange();
     SwitchPic(photo1);
-    document.getElementById('illum').src = "https://www.youtube.com/watch?v=KfVvUX4f8bQ";
+    document.getElementById('illum').src = "https://www.youtube.com/watch?v=KfVvUX4f8bQ?wmode=opaque";
     timedCount();
   }
 }
