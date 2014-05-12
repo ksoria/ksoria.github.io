@@ -32,12 +32,14 @@ function handleClick() {
     timer_is_on = false;
     defaultStyle();
     DefaultPic2(photo1);
+    document.getElementById('illum').src = "https://www.youtube.com/embed/-iZW909WuB4?wmode=opaque";
     clearTimeout(t);
   }
   else {
     timer_is_on = true;
     Textchange();
     SwitchPic(photo1);
+    document.getElementById('illum').src = "https://www.youtube.com/watch?v=KfVvUX4f8bQ";
     timedCount();
   }
 }
