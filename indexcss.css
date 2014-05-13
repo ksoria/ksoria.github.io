@@ -14,7 +14,7 @@ div {
 }
 
 html { 
-  background: url(http://www.space.com/images/i/000/000/481/i02/blue-moon-101119-02.jpg?1291043297) no-repeat center center fixed; 
+  background: url(bluemoon.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
