@@ -45,7 +45,7 @@ function handleClick() {
 }
 
 function SwitchPic(pic) {
-pic.src = "http://24.media.tumblr.com/07e4418d9e8f6a1e73d068cb87d3c07c/tumblr_mevmbpue861qcc17ao1_500.jpg";
+pic.src = "illumtri.jpg";
 }
 
 function DefaultPic2(pic) {
