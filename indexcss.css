@@ -35,6 +35,9 @@ html {
 	width:150px;
 	padding:5px;}
 }
+.blackness{
+        background-color:#000000;
+}
 #one{
 	color:green;
 	background-color:green;
