@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <script data-require="processing.js@*" data-semver="1.4.1" src="//cdnjs.cloudflare.com/ajax/libs/processing.js/1.4.1/processing.min.js"></script>
+    <script type="text/processing" data-processing-target="targetcanvas">
+      void setup()
+      {
+      size(400, 400);
+      }
+      
+      void draw()
+      {
+        
+        frameRate(120);
+        var inside = 0;
+        var total = 0;
+        
+        var x = random(0, 400);
+        var y = random(0, 400);
+            
+        var distance = dist(x, y, 200, 200);
+            
+        if(distance <= width/2) {
+          inside += 1;
+          stroke(0, 255, 0);
+              strokeWeight(3);
+              point(x, y);
+        }
+        else{
+            stroke(255, 0, 255);
+            strokeWeight(3);
+            point(x, y);
+        }
+        total += 1;
+            
+        noStroke();
+        fill(241, 240, 245);
+        rectMode(CENTER);
+        
+        rect(200,200,50,50);
+        fill(255, 0, 0);
+        text(nf(inside / total * 4.0, 1, 5), 200,200);
+     }
+      
+    </script>    
+  </head>
+
+  <body>
+    <canvas id="targetcanvas" width="400" height="400"></canvas>
+  </body>
+</html>
+    
