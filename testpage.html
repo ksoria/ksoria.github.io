@@ -17,6 +17,25 @@
  urlmenu.onchange = function() {
       window.open(  this.options[ this.selectedIndex ].value );
  };
+ 
+ 
+ <FORM ACTION="http://www.cgiforme.com/jumporama/cgi/jumporama.cgi"
+ METHOD="post">
+<DIV>
+<SELECT NAME="url">
+<OPTION SELECTED VALUE="http://www.cs.tut.fi/~jkorpela/forms/">
+Main page on HTML forms
+<OPTION VALUE="http://www.cs.tut.fi/~jkorpela/forms/choices.html">
+Choices in HTML forms
+<OPTION VALUE="http://www.cs.tut.fi/~jkorpela/forms/tables.html">
+Tables and forms
+<OPTION VALUE="http://www.cs.tut.fi/~jkorpela/forms/methods.html">
+Form submission methods (GET and POST)
+</SELECT>
+<INPUT TYPE="SUBMIT" VALUE="Go!">
+</DIV>
+</FORM>
+
 </script>
 </body>
 </html>
