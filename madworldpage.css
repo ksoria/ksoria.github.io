@@ -169,5 +169,38 @@ p.post-footer
 	text-align:right;
 }
 
+#left {
+float:left;
+width:350px;
+margin:10px;
+padding:10px;
+border:1px solid #535353;
+border-width:1px 0 0 1px;
+}
+
+/* Floats latest comic on right + sets width and border */
+
+#right {
+float:right;
+width:350px;
+margin:10px;
+padding:10px;
+border:1px solid #535353;
+border-width:0 1px 1px 0;
+}
+
+#right img {
+background-color:#fff;
+padding:5px;
+margin:5px;
+border:2px solid #d7d8d8;
+border-width:0 2px 2px 0;
+}
+
+#newstitle {
+font-size:50px;
+text-align:left;
+margin:10px 0 10px 40px;
+}
 
 
