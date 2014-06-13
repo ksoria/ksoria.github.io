@@ -117,7 +117,8 @@ text-decoration:none;
   position: fixed;
   bottom: 0px;
   left:70px;
-  width:700px;
+  width:1000px;
+  border-width:0;
 }
 
 .image2 {
