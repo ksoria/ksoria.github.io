@@ -70,6 +70,16 @@ font-family: 'Rokkitt', serif;
     -1px 1px 0 #000,
     1px 1px 0 #000;  
 }
+
+.strokeme2
+{
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
 #winners{
 	font-size: 24pt;
 }
@@ -220,5 +230,7 @@ margin:10px 0 10px 40px;
 	font-family:helvetica;
 }
 
-
+.chuckle {
+	background-color:#000000;
+}
 
