@@ -9,6 +9,10 @@ body {
         font-family:'Old Standard TT', serif;
 }
 
+b{
+  font-family: 'Helvetica';
+}
+
 html { 
   background: url("http://www.wallm.com/images/2012/11/black-backgrounds-desktop-12166-download.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
