@@ -124,4 +124,9 @@ text-decoration:none;
   position: fixed;
   top: 0px;
   width:1000px;
+  margin: -20px;
+}
+
+.image {
+  width: 1000px;
 }
