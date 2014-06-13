@@ -1,0 +1,269 @@
+@import url(http://fonts.googleapis.com/css?family=Rokkitt);
+@import url(http://fonts.googleapis.com/css?family=Herr+Von+Muellerhoff|Old+Standard+TT:400,400italic,700);
+body {
+	color: #FFFFFF;
+	/*background-color: #282828;
+	background-image: url(http://www.space.com/images/i/000/000/481/i02/blue-moon-101119-02.jpg?1291043297);*/
+	background-position: center;
+	background-repeat: no-repeat;
+        font-family:'Old Standard TT', serif;
+}
+
+
+b{
+  font-family: 'Helvetica';
+}
+
+
+html { 
+  background: url("http://www.wallm.com/images/2012/11/black-backgrounds-desktop-12166-download.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#mattrex{
+	font-family:Herr Von Muellerhoff;
+	text-align:center;
+	color: #FFFFFF;
+	font-size:430%;
+}
+.blackness{
+        background-color:#000000;
+        background-image: url(madworldcoverremade.png);
+}
+#one{
+	color:green;
+	background-color:green;
+	height: 5px;
+}
+#photo1{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+marquee {
+	color: #333;
+	background-color: #eee;
+	border: 1px solid;
+}
+p {
+	color: #FFFFFF;
+font-family: 'Old Standard TT', serif;
+}
+
+
+
+
+li {
+	color: #FFFFFF;
+font-family: 'Old Standard TT', serif;
+}
+
+
+
+
+h2 {
+font-family: 'Rokkitt', serif;
+}
+
+
+
+
+.strokeme
+{
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
+
+.strokeme2
+{
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
+
+#winners{
+	font-size: 24pt;
+}
+
+
+
+
+#load
+ {
+ color: #E8E8E8;
+ position:fixed;
+ bottom:10px;
+ background-color: #303030;
+ border-style: ridge;
+ border-color: #500000;
+ margin: 1px 50px;
+ } 
+
+
+
+
+.high {
+	color: 33CCFF;
+}
+
+
+
+
+button {
+        width: 200px;
+        height: 80px;
+        font-size: 20pt;
+        font-family: "Rokkitt", serif;
+        color: #FFFFFF;
+        background-color: #000000;
+}
+.divscroll {
+	width:500px;
+	height:500px;
+	overflow:scroll;
+	background-color: #000000;
+}
+#title {
+position:fixed;
+right: 10px;
+bottom: 0px;
+font-size:52px;
+}
+
+
+#title a:hover {
+opacity:0.6; 
+filter:alpha(opacity=60);
+text-decoration:none;
+}
+.image {
+  position: fixed;
+  bottom: 0px;
+  width:1000px;
+  margin:-20px;
+}
+
+
+.image2 {
+  position: fixed;
+  top: 0px;
+  width:1000px;
+  margin: -10px;
+}
+
+
+.imagetop {
+  width: 2000px;
+}
+
+
+.imagebottom {
+  width: 1500px;
+}
+
+
+.post
+{
+margin:15px;
+padding:0;
+text-align: left;
+background-color:#535353;
+border:8px solid #fff; 
+}
+
+
+.post-title
+{
+	margin:0;
+	font-size:145%;
+	line-height:1.5em;
+	display:block;
+	padding:8px 14px 2px 29px;
+	color:#fff;
+}
+
+
+.post-body
+{
+	padding:0 14px 1px 15px;
+}
+
+
+p.post-footer
+{
+	margin:0;
+	padding:2px 14px 2px 29px;
+	font-size:80%;
+	line-height:1.5em;
+	color:#fff;
+	text-align:right;
+}
+
+
+#left {
+float:left;
+width:350px;
+margin:10px;
+padding:10px;
+border:1px solid #535353;
+border-width:1px 0 0 1px;
+}
+
+
+/* Floats latest comic on right + sets width and border */
+
+
+#right {
+float:right;
+width:350px;
+margin:10px;
+padding:10px;
+border:1px solid #535353;
+border-width:0 1px 1px 0;
+}
+
+
+#right img {
+background-color:#fff;
+padding:5px;
+margin:5px;
+border:2px solid #d7d8d8;
+border-width:0 2px 2px 0;
+}
+
+
+#newstitle {
+font-size:50px;
+text-align:left;
+margin:10px 0 10px 40px;
+}
+
+
+.imagebackyay {
+	height:500px;
+	width:500px;
+}
+
+
+.boxwhite {
+	color: #000000;
+	background-color: #FFFFFF;
+	font-size: 20pt;
+	font-family:helvetica;
+}
+
+
+.chuckle {
+	background-color:#000000;
+	width:700px
+	height:300px;
+}
