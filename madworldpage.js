@@ -1,1 +1,102 @@
-Oh
+@import url(http://fonts.googleapis.com/css?family=Rokkitt);
+@import url(http://fonts.googleapis.com/css?family=Herr+Von+Muellerhoff|Old+Standard+TT:400,400italic,700);
+body {
+	color: #FFFFFF;
+	/*background-color: #282828;
+	background-image: url(http://www.space.com/images/i/000/000/481/i02/blue-moon-101119-02.jpg?1291043297);*/
+	background-position: center;
+	background-repeat: no-repeat;
+        font-family:'Old Standard TT', serif;
+}
+
+html { 
+  background: url(bluemoon.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#mattrex{
+	font-family:Herr Von Muellerhoff;
+	text-align:center;
+	color: #FFFFFF;
+	font-size:430%;
+}
+.blackness{
+        background-color:#000000;
+}
+#one{
+	color:green;
+	background-color:green;
+	height: 5px;
+}
+#photo1{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+marquee {
+	color: #333;
+	background-color: #eee;
+	border: 1px solid;
+}
+p {
+	color: #FFFFFF;
+font-family: 'Old Standard TT', serif;
+}
+
+
+li {
+	color: #FFFFFF;
+font-family: 'Old Standard TT', serif;
+}
+
+
+h2 {
+font-family: 'Rokkitt', serif;
+}
+
+
+.strokeme
+{
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+#winners{
+	font-size: 24pt;
+}
+
+
+#load
+ {
+ color: #E8E8E8;
+ position:fixed;
+ bottom:10px;
+ background-color: #303030;
+ border-style: ridge;
+ border-color: #500000;
+ margin: 1px 50px;
+ } 
+
+
+.high {
+	color: 33CCFF;
+}
+
+
+button {
+        width: 200px;
+        height: 80px;
+        font-size: 20pt;
+        font-family: "Rokkitt", serif;
+        color: #FFFFFF;
+        background-color: #000000;
+}
+.divscroll {
+	width:150px;
+	height:150px;
+	overflow:scroll;
+}
