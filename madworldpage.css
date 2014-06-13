@@ -134,3 +134,40 @@ text-decoration:none;
 .imagebottom {
   width: 1500px;
 }
+
+.post
+{
+margin:15px;
+padding:0;
+text-align: left;
+background-color:#535353;
+border:8px solid #fff; 
+}
+
+.post-title
+{
+	margin:0;
+	font-size:145%;
+	line-height:1.5em;
+	display:block;
+	padding:8px 14px 2px 29px;
+	color:#fff;
+}
+
+.post-body
+{
+	padding:0 14px 1px 15px;
+}
+
+p.post-footer
+{
+	margin:0;
+	padding:2px 14px 2px 29px;
+	font-size:80%;
+	line-height:1.5em;
+	color:#fff;
+	text-align:right;
+}
+
+
+
