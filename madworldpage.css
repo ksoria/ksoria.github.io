@@ -127,6 +127,10 @@ text-decoration:none;
   margin: -10px;
 }
 
-.imagemad {
+.imagetop {
   width: 1000px;
+}
+
+.imagebottom {
+  width: 1500px;
 }
