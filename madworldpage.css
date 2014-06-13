@@ -101,3 +101,15 @@ button {
 	overflow:scroll;
 	background-color: #000000;
 }
+#title {
+position:fixed;
+right: 10px;
+bottom: 0px;
+font-size:52px;
+}
+
+#title a:hover {
+opacity:0.6; 
+filter:alpha(opacity=60);
+text-decoration:none;
+}
