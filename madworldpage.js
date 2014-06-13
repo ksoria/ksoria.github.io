@@ -105,4 +105,12 @@ var urlmenu = document.getElementById( 'menu1' );
       window.open(  this.options[ this.selectedIndex ].value );
  };
 
+function goToNewPage()
+    {
+        var url = document.getElementById('list').value;
+        if(url != 'none') {
+            window.location = url;
+        }
+    }
+
 
