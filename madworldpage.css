@@ -29,6 +29,8 @@ html {
 .blackness{
         background-color:#000000;
         background-image: url(madworldcoverremade.png);
+        background-repeat:no-repeat;
+        background-position: left center;
 }
 #one{
 	color:green;
