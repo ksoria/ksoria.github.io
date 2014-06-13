@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css"
+    href="madworldpage.css">
+  <title> Mad World </title>
+  <LINK REL="SHORTCUT ICON" HREF="cross.jpg" />
+  <script
+    src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script
+    type="text/javascript" src="madworldpage.js"></script>  
+  </head>
+  <body onLoad="time()">
+    <header class="blackness">
+    <div class="blackness">
+    <div class="chuckle"><h1 id="mattrex" class="strokeme2"> Mad World </h1></div>
+    <center> <button onClick="window.location='http://ksoria.github.io/lyrics'"> The Mad World lyrics </button>
+    <button onClick="window.location='http://alex.smackjeeves.com' "> The Alex Webcomic </button>
+    <button onClick="window.location='http://mad-world.smackjeeves.com' "> The Mad World Webcomic </button> </center>
+    </div>
