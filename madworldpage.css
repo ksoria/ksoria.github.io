@@ -113,3 +113,14 @@ opacity:0.6;
 filter:alpha(opacity=60);
 text-decoration:none;
 }
+.image {
+  position: fixed;
+  bottom: 0px;
+left:70px;
+}
+
+.image2 {
+  position: fixed;
+  top: 0px;
+left:70px;
+}
