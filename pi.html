@@ -12,31 +12,30 @@
       strokeWeight(3);
       }
       
-      void draw()
-      {
+      void draw(){
         
         var x = random(0, 400);
-    var y = random(0, 400);
+        var y = random(0, 400);
     
-    var distance = dist(x, y, 200, 200);
+        var distance = dist(x, y, 200, 200);
     
-    if(distance <= 200) {
-          stroke(0, 255, 0);
-          inside += 1;
-    }
-    else{
-        stroke(255, 0, 255);
-    }
-    point(x, y);
-    total += 1;
+        if(distance <= 200) {
+              stroke(0, 255, 0);
+              inside += 1;
+        }
+        else{
+              stroke(255, 0, 255);
+        }
+        point(x, y);
+        total += 1;
             
-    noStroke();
-    fill(241, 240, 245);
-    rectMode(CENTER);
-    rect(200,200,85,85);
-    fill(255, 0, 0);
-    var pi = inside/total *4;
-    text(nf(pi, 1, 6), 176,200);
+        noStroke();
+        fill(241, 240, 245);
+        rectMode(CENTER);
+        rect(200,200,85,85);
+        fill(255, 0, 0);
+        var pi = inside/total *4;
+        text(nf(pi, 1, 6), 176,200);
      }
       
     </script>    
