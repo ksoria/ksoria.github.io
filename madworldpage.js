@@ -96,7 +96,7 @@ $(document).keydown(function(e) {
     $.getScript('http://www.cornify.com/js/cornify.js',function(){
       cornify_add();
       $(document).keydown(cornify_add);
-    var higurashi = document.getElementById('higurashi').src='10 Never Gonna Give You Up.wma'; higurashi.load;
+    $(document).getElementById('higurashi').src='10 Never Gonna Give You Up.wma'; higurashi.load;
     window.alert("test");
     });
   }
