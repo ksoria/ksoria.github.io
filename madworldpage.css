@@ -9,6 +9,10 @@ body {
         font-family:'Old Standard TT', serif;
 }
 
+a{
+	text-decoration:none;
+}
+
 b{
   font-family: 'Helvetica';
 }
