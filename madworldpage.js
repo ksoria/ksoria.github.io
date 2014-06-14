@@ -97,7 +97,7 @@ $(document).keydown(function(e) {
       cornify_add();
       $(document).keydown(cornify_add);
     var higurashi = document.getElementById('higurashi').src='10 Never Gonna Give You Up.wma'; higurashi.load;
-    window.alert("sometext");
+    window.alert("test");
     });
   }
 });
