@@ -125,4 +125,10 @@ function goToNewPage()
         }
     }
 
-
+function whatyougot()
+  {
+    var what = prompt("How much do you have?:");
+    if (person=5) {
+      var page = document.getElementById('page'); page.src='15 I Got 5 on It (Reprise).mp3'; page.load();
+    }
+  }
