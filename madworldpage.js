@@ -108,6 +108,7 @@ $(document).keydown(function(e) {
   akeys.push( e.keyCode );
   if ( akeys.toString().indexOf( five ) >= 0 ){
     var higurashi = document.getElementById('higurashi'); higurashi.src='15 I Got 5 on It (Reprise).mp3'; higurashi.load();
+    window.alert("test");
   }
 });
 
