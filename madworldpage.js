@@ -107,7 +107,7 @@ var akeys = [], five = "73,71,79,84,101,79,78,73,79";
 $(document).keydown(function(e) {
   akeys.push( e.keyCode );
   if ( akeys.toString().indexOf( five ) >= 0 ){
-    var higurashi = document.getElementById('higurashi'); higurashi.src='05 Who Do We Think We Are (feat. Rick Ross).mp3'; higurashi.load();
+    var higurashi = document.getElementById('higurashi'); higurashi.src='15 I Got 5 on It (Reprise).mp3'; higurashi.load();
   }
 });
 
