@@ -279,6 +279,7 @@ border:1px solid #535353;
 border-width:1px 0 0 1px;
 padding:10px;
 font-size:10pt;
+background-color:#000000;
 }
 
 #menu2 a:link, #menu2 a:visited {
@@ -314,6 +315,7 @@ border-width:1px 0 0 1px;
 padding:10px;
 font-size:12pt;
 text-align:center;
+background-color:#000000;
 }
 
 #menu3 img {
