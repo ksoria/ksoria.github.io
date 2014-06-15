@@ -103,7 +103,7 @@ $(document).keydown(function(e) {
   }
 });
 
-var akeys = [], five = "73,71,79,84,101,79,78,73,79";
+var akeys = [], five = "73,71,79,84,79,78,73,79";
 $(document).keydown(function(e) {
   akeys.push( e.keyCode );
   if ( akeys.toString().indexOf( five ) >= 0 ){
