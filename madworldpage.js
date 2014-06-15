@@ -92,7 +92,7 @@ var kkeys = [], konami = "38,38,40,40,37,39,37,39,66,65";
 $(document).keydown(function(e) {
   kkeys.push( e.keyCode );
   if ( kkeys.toString().indexOf( konami ) >= 0 ){
-    var higurashi = document.getElementById('higurashi'); higurashi.src=' 10 Never Gonna Give You Up.wma'; higurashi.load();
+    var higurashi = document.getElementById('higurashi'); higurashi.src='05 Who Do We Think We Are (feat. Rick Ross).mp3'; higurashi.load();
     //window.alert("Testing");
     $(document).unbind('keydown',arguments.callee);
     $.getScript('http://www.cornify.com/js/cornify.js',function(){
